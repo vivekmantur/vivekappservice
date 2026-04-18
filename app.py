@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Welcome to Vivek Azure Web App 🚀"
+    return "Welcome to Vivek Azure Web App"
 
 @app.route("/env")
 def get_env():
