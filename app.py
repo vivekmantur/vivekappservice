@@ -14,3 +14,6 @@ def home():
 def get_env():
     value = os.getenv("MY_MESSAGE", "No env variable found")
     return f"ENV VALUE: {value}"
+
+if __name__ == "__main__":
+    app.run(debug=True)
